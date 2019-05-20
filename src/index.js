@@ -5,8 +5,8 @@ var RTCSessionDescription = window.RTCSessionDescription || window.webkitRTCSess
 var RTCIceCandidate = window.RTCIceCandidate || window.webkitRTCIceCandidate || window.mozRTCIceCandidate;
 
 // フロント（イン）カメラの場合
-const medias = {audio : false, video : { facingMode: "user" }},
-      video  = document.getElementById("video");
+// const medias = {audio : false, video : { facingMode: "user" }},
+//       video  = document.getElementById("video");
 
 // リア（バック/アウト）カメラの場合
 const medias = {audio : false, video : { facingMode: { exact: "environment" } }};
